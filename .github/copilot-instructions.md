@@ -1,0 +1,6 @@
+- [x] Project is a Vite-based JavaScript React library exporting SignInDialog as an ES module for CDN import.
+- [x] No TypeScript used.
+- [x] Build outputs ES module in dist/SignInDialog.js, suitable for import via URL.
+- [x] README.md documents usage and build instructions.
+- [x] No VS Code extensions required for this setup.
+- [x] No additional tasks needed for build/run.
