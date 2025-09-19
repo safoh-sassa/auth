@@ -1,12 +1,11 @@
 {
- 
-  "buildCommand": "npm install && vite build",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "installCommand": "npm install",
+  "framework": null,
   "headers": [
     {
-      "source": "/dist/(.*)",
+      "source": "/(.*).js",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
