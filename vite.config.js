@@ -6,10 +6,10 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: './src/SignInDialog.jsx',
-      name: 'SignInDialog',
-  fileName: 'SignInDialog.js',
-      formats: ['es'],
+    entry: './src/SignInDialog.jsx',
+    name: 'SignInDialog',
+    fileName: 'SignInDialog.js',
+    formats: ['es'],
     },
     rollupOptions: {
       external: ['react'],
